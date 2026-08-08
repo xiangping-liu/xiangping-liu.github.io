@@ -35,6 +35,14 @@ latest_posts:
       transform: translateY(4px);
     }
   }
+
+  article h2:has(> a[href="/publications/"]) > a {
+    display: none;
+  }
+
+  article h2:has(> a[href="/publications/"])::after {
+    content: "Selected Publications";
+  }
 </style>
 I am a Ph.D. candidate in Biomedical Engineering at The University of
 Texas at Austin, advised by Prof. Huiliang Evan Wang.
@@ -46,12 +54,4 @@ nanomaterials for neurological disorders.
 I am particularly interested in developing minimally invasive materials
 and devices that convert externally applied ultrasound into optical,
 chemical, or biological signals.
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const link = document.querySelector('article h2 a[href="/publications/"]');
 
-  if (link) {
-    link.replaceWith(document.createTextNode("Selected Publications"));
-  }
-});
-</script>
