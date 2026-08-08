@@ -46,3 +46,12 @@ nanomaterials for neurological disorders.
 I am particularly interested in developing minimally invasive materials
 and devices that convert externally applied ultrasound into optical,
 chemical, or biological signals.
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const link = document.querySelector('article h2 a[href="/publications/"]');
+
+  if (link) {
+    link.replaceWith(document.createTextNode("Selected Publications"));
+  }
+});
+</script>
