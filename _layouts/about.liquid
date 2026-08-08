@@ -1,1 +1,4 @@
-
+{% if page.selected_papers %}
+  <h2>Selected Publications</h2>
+  {% include selected_papers.liquid %}
+{% endif %}
