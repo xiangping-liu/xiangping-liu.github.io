@@ -29,6 +29,12 @@ latest_posts:
   .post-title .font-weight-bold {
     font-weight: inherit !important;
   }
+
+  @media (min-width: 576px) {
+    #search-toggle {
+      transform: translateY(4px);
+    }
+  }
 </style>
 I am a Ph.D. candidate in Biomedical Engineering at The University of
 Texas at Austin, advised by Prof. Huiliang Evan Wang.
