@@ -1,189 +1,420 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Xiangping Liu
+  label: Ph.D. Candidate in Biomedical Engineering
+  email: liuxp1997@utexas.edu
+  location: Austin, TX
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  summary: ""
 
   sections:
+
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: The University of Texas at Austin, Cockrell School of Engineering
+        location: Austin, TX, USA
+        area: Biomedical Engineering
+        studyType: Ph.D. Candidate
+        start_date: 2022-08
+        end_date: Present
+
+      - institution: Jilin University, College of Chemistry
+        location: Changchun, China
+        area: Chemistry
+        studyType: B.Sc.
+        start_date: 2015-09
+        end_date: 2019-06
+
+      - institution: Tsinghua University, Center for Life Science
+        location: Beijing, China
+        area: Structural Biology, Chemical Biology and Medical Chemistry
+        studyType: Summer School
+        start_date: 2017
+        end_date: 2017
+
+
+    "Research Experience":
+      - company: The University of Texas at Austin
+        position: Ultrasound-Induced CaO2-Catalyzed Mechanoluminescent Nanoparticles for ChR2 Sono-Optogenetic Deep Brain Activation
+        location: Austin, TX
+        summary: "Supervisor: Prof. Huiliang (Evan) Wang"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed Lipo@IR780/L012/CaO2 liposomes with improved performance over first-generation organic blue mechanoluminescent nanoparticles by leveraging increased pH and H2O2 generation.
+          - Demonstrated sono-optogenetic neuromodulation of the ventral tegmental area (VTA).
+          - Evaluated neuronal activation after VTA stimulation using c-Fos staining.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - company: The University of Texas at Austin
+        position: Multicolored, Sonosensitizer-Optimized Organic Mechanoluminescent Nanoparticles for Functional Sono-Optogenetics
+        location: Austin, TX
+        summary: "Supervisor: Prof. Huiliang (Evan) Wang"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed wavelength-tunable organic mechanoluminescent nanoparticles using FRET.
+          - Established a correlation between sonosensitizer energy gaps and ROS generation to guide sonosensitizer design and selection.
+          - Demonstrated bidirectional neuromodulation of genetically defined neurons using ChR2/ChRmine for activation and eOPN3 for inhibition.
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+
+    "First- and Co-first-Author Publications († Co-first Author)":
+      - title: Multicolored, Sonosensitizer-Optimized Organic Mechanoluminescent Nanoparticles for Functional Sono-Optogenetics
+        authors:
+          - Liu, X.
+          - Wang, W.
+          - Artman, B.
+          - Diao, J.
+          - Zhao, Y.
+          - He, W.
+          - Yu, S.
+          - Tang, K. W. K.
+          - Yao, M.
+          - Gu, C.
+          - Song, B.
+          - Wang, H.
+        publisher: J. Am. Chem. Soc.
+        releaseDate: 2026
+        summary: "148, 16809-16820."
+
+      - title: Organic Mechanoluminescent Nanoparticles for Biomedical Applications
+        authors:
+          - Gu, C.
+          - Liu, X.†
+          - Song, B.
+          - Wang, W.
+          - He, W.
+          - Wang, H.
+        publisher: Chem. Sci.
+        releaseDate: 2025
+        summary: "16 (28), 12702-12717."
+
+      - title: iBMEntored Buddy Program for First-Year International BME Doctoral Students
+        authors:
+          - Liu, X.
+          - Hsieh, J.-C.
+          - Markey, M.
+          - Wang, H.
+        publisher: ASEE-GSW Proceedings
+        releaseDate: 2024
+
+      - title: Ultrasound-Induced Cascade Amplification in a Mechanoluminescent Nanotransducer for Enhanced Sono-Optogenetic Deep Brain Stimulation
+        authors:
+          - Wang, W.
+          - Tang, K. W. K.
+          - Pyatnitskiy, I.
+          - Liu, X.†
+          - Shi, X.
+          - Huo, D.
+          - Jeong, J.
+          - Wynn, T.
+          - Sangani, A.
+          - Baker, A.
+          - Hsieh, J.-C.
+          - Lozano, A. R.
+          - Artman, B.
+          - Fenno, L.
+          - Buch, V. P.
+          - Wang, H.
+        publisher: ACS Nano
+        releaseDate: 2023
+        summary: "17 (24), 24936-24946."
+
+      - title: Ultra-Bright Heptamethine Dye Clusters Based on a Self-Adaptive Co-Assembly Strategy for NIR-IIb Biomedical Imaging
+        authors:
+          - Dang, Z.
+          - Liu, X.†
+          - Du, Y.
+          - Wang, Y.
+          - Zhou, D.
+          - Zhang, Y.
+          - Zhu, S.
+        publisher: Adv. Mater.
+        releaseDate: 2023
+        summary: "35 (46), e2306773."
+
+
+    "Co-Author Publications":
+      - title: Mechanoluminescent HOF Nanotransducers Enabled Sono-Optogenetics in Parkinsonian Rats
+        authors:
+          - Wang, W.
+          - Pyatnitskiy, I.
+          - Shi, Y.
+          - Tang, K. W. K.
+          - Xie, Y.
+          - Yu, S.
+          - Wynn, T.
+          - Liu, X.
+          - Hsieh, J.-C.
+          - Jeong, J.
+          - He, W.
+          - Artman, B.
+          - Romero Lozano, A.
+          - Shi, X.
+          - Sangani, A.
+          - Fenno, L. E.
+          - Santacruz, S.
+          - Chen, B.
+          - Wang, H.
+        publisher: Adv. Funct. Mater.
+        releaseDate: 2026
+        summary: "e76189."
+
+      - title: H-Bonded Organic Frameworks as Ultrasound-Programmable Delivery Platform
+        authors:
+          - Wang, W.
+          - Shi, Y.
+          - Chai, W.
+          - Tang, K. W. K.
+          - Pyatnitskiy, I.
+          - Xie, Y.
+          - Liu, X.
+          - He, W.
+          - Jeong, J.
+          - Hsieh, J.-C.
+          - Lozano, A. R.
+          - Artman, B.
+          - Shi, X.
+          - Hoefer, N.
+          - Shrestha, B.
+          - Stern, N. B.
+          - Zhou, W.
+          - McComb, D. W.
+          - Porter, T.
+          - Henkelman, G.
+          - Chen, B.
+          - Wang, H.
+        publisher: Nature
+        releaseDate: 2025
+        summary: "638 (8050), 401-410."
+
+      - title: Bioadhesive Hydrogel-Coupled and Miniaturized Ultrasound Transducer System for Long-Term, Wearable Neuromodulation
+        authors:
+          - Tang, K. W. K.
+          - Jeong, J.
+          - Hsieh, J.-C.
+          - Yao, M.
+          - Ding, H.
+          - Wang, W.
+          - Liu, X.
+          - Pyatnitskiy, I.
+          - He, W.
+          - Moscoso-Barrera, W. D.
+          - Lozano, A. R.
+          - Artman, B.
+          - Huh, H.
+          - Wilson, P. S.
+          - Wang, H.
+        publisher: Nat. Commun.
+        releaseDate: 2025
+        summary: "16 (1), 4940."
+
+      - title: Reversible Light-Responsive Protein Hydrogel for on-Demand Cell Encapsulation and Release
+        authors:
+          - Narayan, O. P.
+          - Dong, J.
+          - Huang, M.
+          - Chen, L.
+          - Liu, L.
+          - Nguyen, V.
+          - Dozic, A. V.
+          - Liu, X.
+          - Wang, H.
+          - Yin, Q.
+          - Tang, X.
+          - Guan, J.
+        publisher: Acta Biomater.
+        releaseDate: 2025
+        summary: "193, 202-214."
+
+      - title: Improved Performance of CsPbBr3 Quantum-Dot Light-Emitting Diodes by Bottom Interface Modification
+        authors:
+          - Zhao, Y.-Y.
+          - Zhang, Q.-W.
+          - Liu, Y.-F.
+          - Lv, C.
+          - Guo, S.
+          - Liu, X.-P.
+          - Bi, Y.-G.
+          - Li, H.-W.
+          - Wu, Y.-Q.
+        publisher: Org. Electron.
+        releaseDate: 2022
+        summary: "109, 106620."
+
+      - title: Super-Stable Cyanine@Albumin Fluorophore for Enhanced NIR-II Bioimaging
+        authors:
+          - Bai, L.
+          - Hu, Z.
+          - Han, T.
+          - Wang, Y.
+          - Xu, J.
+          - Jiang, G.
+          - Feng, X.
+          - Sun, B.
+          - Liu, X.
+          - Tian, R.
+          - Sun, H.
+          - Zhang, S.
+          - Chen, X.
+          - Zhu, S.
+        publisher: Theranostics
+        releaseDate: 2022
+        summary: "12 (10), 4536-4547."
+
+      - title: Surfactant-Chaperoned Donor-Acceptor-Donor NIR-II Dye Strategy Efficiently Circumvents Intermolecular Aggregation to Afford Enhanced Bioimaging Contrast
+        authors:
+          - Han, T.
+          - Wang, Y.
+          - Xu, J.
+          - Zhu, N.
+          - Bai, L.
+          - Liu, X.
+          - Sun, B.
+          - Yu, C.
+          - Meng, Q.
+          - Wang, J.
+          - Su, Q.
+          - Cai, Q.
+          - Hettie, K. S.
+          - Zhang, Y.
+          - Zhu, S.
+          - Yang, B.
+        publisher: Chem. Sci.
+        releaseDate: 2022
+        summary: "13 (44), 13201-13211."
+
+      - title: Near-Infrared-II Cyanine/Polymethine Dyes, Current State and Perspective
+        authors:
+          - Du, Y.
+          - Liu, X.
+          - Zhu, S.
+        publisher: Front. Chem.
+        releaseDate: 2021
+        summary: "9, 718709."
+
+      - title: Indole Carbonized Polymer Dots Boost Full-Color Emission by Regulating Surface State
+        authors:
+          - Liu, C.
+          - Jin, Y.
+          - Wang, R.
+          - Han, T.
+          - Liu, X.
+          - Wang, B.
+          - Huang, C.
+          - Zhu, S.
+          - Chen, J.
+        publisher: iScience
+        releaseDate: 2020
+        summary: "23 (10), 101546."
+
+
+    Presentations:
+      - company: 2025 MRS Fall Meeting & Exhibit
+        position: Multicolored Mechanoluminescent Nanoparticles for Functional Sono-Optogenetics
+        location: Boston, MA
+        start_date: 2025-12
+        end_date: 2025-12
+        summary: Oral Presentation
+
+      - company: 23rd International Nanomedicine and Drug Delivery Symposium (NanoDDS 2025)
+        position: Multicolored Mechanoluminescent Nanoparticles for Functional Sono-Optogenetics
+        location: Houston, TX
+        start_date: 2025-10
+        end_date: 2025-10
+        summary: Poster Presentation
+
+      - company: BMES 2024 Annual Meeting
+        position: iBMEntored Buddy Program for First-Year International Doctoral Students
+        location: Baltimore, MD
+        start_date: 2024-10
+        end_date: 2024-10
+        summary: Poster Presentation
+
+
+    "Teaching & Mentoring":
+      - company: The University of Texas at Austin
+        position: CREATE Undergraduate Research Mentor
+        start_date: 2026
+        end_date: 2026
         highlights:
-          - Relativity
-          - Description 2.
+          - Mentoring a CREATE Summer Research Intern in HOF nanoparticle fabrication, focused ultrasound-triggered mechanoluminescence experiments, and nanoparticle characterization.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: The University of Texas at Austin
+        position: Undergraduate Research Mentor
+        start_date: 2025
+        end_date: Present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Providing training in mechanoluminescent nanoparticle and HOF fabrication and related equipment use.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: The University of Texas at Austin
+        position: Undergraduate Research Mentor
+        start_date: 2024
+        end_date: 2025
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Guided an undergraduate researcher in writing a review on organic mechanoluminescent nanoparticles for biomedical applications, published in Chemical Science.
+
+      - company: The University of Texas at Austin
+        position: iBMEntored Program - Mentor
+        start_date: 2023
+        end_date: 2025
+        highlights:
+          - Mentored first-year international BME doctoral students through the iBMEntored buddy program.
+
+      - company: The University of Texas at Austin
+        position: BME 365R Engineering Physiology I - Teaching Assistant
+        start_date: 2023
+        end_date: 2023
+        highlights:
+          - "Led discussion sections and graded assignments. Instructors: Prof. Amy Brock and Prof. H. Grady Rylander III."
+
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Gregg and Marilyn Harris Endowed Graduate Fellow
+        date: 2026
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: BME Professional Development Award
+        date: 2026
+        awarder: The University of Texas at Austin
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: BME Professional Development Award
+        date: 2025
+        awarder: The University of Texas at Austin
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: UT Austin Engineering Fellowship
+        date: 2022
+        awarder: The University of Texas at Austin
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: First Prize Scholarship
+        date: 2019
+        awarder: Jilin University
+
+      - title: Chinese National Endeavor Scholarship
+        date: 2016
+
+
+    "Academic Service":
+      - company: Nano Letters
+        position: Ad Hoc Reviewer
+        start_date: 2025
+        end_date: Present
+
+      - company: Biosensors and Bioelectronics
+        position: Ad Hoc Reviewer
+        start_date: 2026
+        end_date: Present
+
+      - company: Nature Biotechnology
+        position: Ad Hoc Reviewer
+        start_date: 2026
+        end_date: Present
+
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Nanomaterials & Chemistry
+        keywords: "Organic synthesis; HOFs; polymeric nanoparticles; micelle/liposome formulation; drug loading; surface functionalization; bioconjugation; click chemistry"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Characterization & Imaging
+        keywords: "TEM; STEM; SEM; EDS; DLS; zeta potential; UV-Vis; fluorescence/chemiluminescence spectroscopy and imaging; NMR; HPLC; MALDI-TOF; confocal microscopy; NIR-II imaging"
 
-      - name: English
-        summary: "Fluent"
+      - name: Ultrasound & Neuroengineering
+        keywords: "Focused ultrasound (FUS); ultrasound-triggered drug delivery; sono-optogenetics; MEA recording; fiber photometry; laser speckle contrast imaging (LSCI)"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Biological Techniques
+        keywords: "Mammalian cell culture; primary neuron preparation; stereotactic surgery; IV/intracranial injection; rodent neuromodulation; photothrombotic stroke models"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Software & Programming
+        keywords: "MATLAB; Python; C; ImageJ/Fiji; Origin; ChemDraw; Gaussian; MestReNova; Maestro; Spartan; EndNote; Cinema 4D; 3ds Max"
