@@ -1,9 +1,8 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
-
-cv_format: rendercv
-cv_pdf: /assets/pdf/Xiangping_Liu_CV.pdf
+nav_order: 5
+description:
 ---
