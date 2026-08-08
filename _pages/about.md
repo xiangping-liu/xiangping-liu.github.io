@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate in Biomedical Engineering at The University of Texas at Austin
+subtitle:
 
 profile:
   align: right
-  image: 2.jpg
+  image: 2.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>The University of Texas at Austin</p>
