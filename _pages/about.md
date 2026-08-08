@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: 2.png
+  image: Xiangping_Liu.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>The University of Texas at Austin</p>
